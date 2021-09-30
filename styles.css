@@ -1,7 +1,23 @@
-.heading {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&family=Roboto+Slab&display=swap');
+
+body{
+  background: #9796f0;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #fbc7d4, #9796f0);
+  background: linear-gradient(to right, #fbc7d4, #9796f0); 
 }
 
-.topic {
-  background-color: beige;
+.heading {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+
+.article-link:hover{
+  text-decoration: underline;
+}
+
+.article-link{
+  font-family: 'Roboto Slab', serif;
+  font-size: 1rem;
+  text-decoration: none;
+  color: black;
 }
