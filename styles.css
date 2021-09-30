@@ -5,6 +5,19 @@
 .topic {
   background-color: beige;
 }
+
+
+#footer{
+  position: fixed;
+  width: 100%;
+  bottom : 0;
+  background-color: rgb(182, 174, 174);
+  font-weight:600;
+  color: blue;
+  
+
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 body{
 	line-height: 1.5;
@@ -91,6 +104,7 @@ li{
     width: 100%;
 }
 }
+
 
 
 
