@@ -1,7 +1,19 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
 .heading {
-  text-align: center;
+	text-align: center;
 }
 
 .topic {
-  background-color: beige;
+	background-color: beige;
+	padding: 20px;
+}
+
+.container {
+	width: 100%;
+	height: 500px;
+	background: linear-gradient(135deg, rgba(245, 198, 165, 1) 0%, rgb(255, 168, 168) 100%);
 }
