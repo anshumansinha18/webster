@@ -1,7 +1,21 @@
-.heading {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&family=Roboto+Slab&display=swap');
+
+body{
+  background-color: beige;
 }
 
-.topic {
-  background-color: beige;
+.heading {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+
+.article-link:hover{
+  text-decoration: underline;
+}
+
+.article-link{
+  font-family: 'Roboto Slab', serif;
+  font-size: 1rem;
+  text-decoration: none;
+  color: black;
 }
