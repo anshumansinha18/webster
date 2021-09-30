@@ -5,3 +5,14 @@
 .topic {
   background-color: beige;
 }
+
+#footer{
+  position: fixed;
+  width: 100%;
+  bottom : 0;
+  background-color: rgb(182, 174, 174);
+  font-weight:600;
+  color: blue;
+  
+
+}
