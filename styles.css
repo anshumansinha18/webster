@@ -1,7 +1,13 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
 .heading {
-  text-align: center;
+	text-align: center;
 }
 
 .topic {
-  background-color: beige;
+	background-color: beige;
+	padding: 20px;
 }
