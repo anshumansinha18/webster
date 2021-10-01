@@ -5,3 +5,308 @@
 .topic {
   background-color: beige;
 }
+
+
+#footer{
+  position: fixed;
+  width: 100%;
+  bottom : 0;
+  background-color: rgb(182, 174, 174);
+  font-weight:600;
+  color: blue;
+  
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+li{
+	text-align: justify;
+}
+.footer{
+	background-color: #02091a;
+    padding: 70px 0;
+    margin-top: 250px;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+} 
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  align-items: center;
+  background-color: #F3F5F7;
+  font-family: 'Poppins',
+      sans-serif;
+  width: 100%;
+  min-height: 100vh;
+  color: #1B1C34;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.container {
+  max-width: 70%;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 3%;
+  margin: 5% 0;
+}
+
+.card {
+  overflow: hidden;
+  padding: 20px;
+  background-color: #FFF;
+  border-radius: 30px;
+  text-align: center;
+}
+
+
+.card_img img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+
+.card_body {
+  padding: 26px 20px 36px 20px;
+}
+
+.card_title {
+  font-family: 'Merriweather',
+      serif;
+  font-weight: 900;
+  text-transform: capitalize;
+
+  font-size: 26px;
+  padding-bottom: 20px;
+}
+
+.card_body p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.7;
+
+}
+
+p.card_author {
+  font-size: 15px;
+  padding-top: 15px;
+
+}
+
+p.card_author a {
+  color: #1B1C34;
+  font-style: italic;
+}
+
+p.card_author a:hover {
+  font-weight: bold;
+}
+
+a.read_more {
+  color: #FFF;
+  font-size: 13px;
+  text-decoration: none;
+  letter-spacing: 1.1px;
+  background: #0F1616;
+  margin-top: 50px;
+  padding: 24px 0px;
+  border-radius: 15px;
+  display: inline-block;
+  width: 70%;
+  transition: all .3s ease-in-out;
+}
+
+a.read_more:hover {
+  box-shadow: 0px 1px 50px rgba(0, 0, 0, 0.15);
+  background: #404040;
+}
+
+.link {
+  position: fixed;
+  background-color: #D12322;
+  padding: 23px 40px;
+  right: -106px;
+  border-radius: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+  transform: rotate(-90deg);
+  font-size: 18px;
+  font-weight: 500;
+  color: #FFF;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: all .1s ease-in-out;
+}
+
+.link i {
+  padding-left: 7px;
+}
+
+.link:hover {
+  text-decoration: underline;
+  background-color: black;
+}
+
+@media only screen and (max-width: 1441px) and (min-width: 1025px) {
+  .container {
+      max-width: 80%;
+  }
+
+  .grid {
+      gap: 2%;
+  }
+
+  .card {
+      padding: 15px;
+  }
+
+  .card_body {
+      padding: 15px;
+  }
+
+  .card_title {
+      font-size: 22px;
+      padding-bottom: 14px;
+  }
+
+  .card_body p {
+      font-size: 16px;
+  }
+
+  a.read_more {
+      padding: 19px 0;
+      width: 60%;
+      font-size: 11px;
+      margin-top: 30px;
+  }
+
+}
+
+@media only screen and (max-width: 1024px) {
+
+  .grid {
+      grid-template-columns: 1fr;
+      gap: 2%;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .container {
+      max-width: 90%;
+  }
+
+  .card {
+      padding: 20px 10px;
+  }
+
+  .card_body {
+      padding: 7px;
+  }
+
+  .card_title {
+      font-size: 20px;
+      padding-bottom: 7px;
+  }
+
+  .card_body p {
+      font-size: 14px;
+  }
+
+  a.read_more {
+      padding: 15px 0;
+      margin-top: 20px;
+  }
+
+}
+
+
+
